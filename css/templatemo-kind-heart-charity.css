@@ -231,42 +231,6 @@ border-radius: 0;
 display: block;
 }
 
-/* Styles for desktop or larger screens */
-.container {
-  width: -500px;
-  margin: 0 auto;
-}
-
-.item {
-  width: 300px;
-  float: left;
-  margin: 10px;
-}
-
-/* Media query for tablets */
-@media (max-width: 768px) {
-  .container {
-    width: 600px;
-  }
-
-  .item {
-    width: 200px;
-    margin: 5px;
-  }
-}
-
-/* Media query for mobile devices */
-@media (max-width: 480px) {
-  .container {
-    width: 300px;
-  }
-
-  .item {
-    width: 100%;
-    float: none;
-    margin: 5px 0;
-  }
-}
 
 /*---------------------------------------
 PROGRESS BAR               
@@ -638,16 +602,7 @@ bottom: 0;
 right: 0;
 left: 0;
 }
-.d-block {
-  display: block;
-}
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .d-block {
-    display: none;
-  }
-}
 
 #hero-slide .carousel-indicators {
 margin-right: 0;
